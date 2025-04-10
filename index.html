@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rpg dos Brothers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Cidades/medieval-background_991345-190.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+            <h1>RPG Dos Brother</h1>
+        <nav role="navigation" aria-label="Navegação principal">
+            <ul>
+                <li><a href="#" data-section="home">Início</a></li>
+                <li><a href="#" data-section="personagens">Personagens</a></li>
+                <li><a href="#" data-section="cidades">Cidades</a></li>
+                <li><a href="#" data-section="historias">Histórias</a></li>
+                <li><a href="#" data-section="monstros">Monstros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO -->
+     <main id="content">
+
+     </main>
+
+     <footer>
+        <p>&copy; Feito por um mestre dedicado. 🧙</p>
+     </footer>
+    
+
+     <script src="data/personagens.js"></script>
+     <script src="data/cidades.js"></script>
+     <script src="data/historias.js"></script>
+     <script src="data/monstros.js"></script>
+     <script src="script.js"></script>
+     <script>document.addEventListener("click", function (e) {
+        if (e.target.tagName === "IMG") {
+            const src = e.target.src;
+    
+            // Cria o overlay
+            const overlay = document.createElement("div");
+            overlay.classList.add("img-modal-overlay");
+    
+            // Cria a imagem ampliada
+            const img = document.createElement("img");
+            img.src = src;
+    
+            // Fecha ao clicar
+            overlay.addEventListener("click", () => {
+                overlay.remove();
+            });
+    
+            overlay.appendChild(img);
+            document.body.appendChild(overlay);
+        }
+    });
+    </script>
+</body>
+</html>
