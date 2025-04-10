@@ -3,7 +3,7 @@ const historias = [
       titulo: "Primeira sessão",
       data: "Onde tudo começou,",
       resumo: "O grupo de amigos entra em um quarto, nele você só consegue ver uma cama, uma mesa de madeira, com um mapa sobre ela, um banco, onde os amigos se sentaram, e uma caidera, onde se sentou o mestre. A história começa com o grupo de aventureiros, Perugius, Crowley e Amstel que já vinha de uma longa data juntos.",
-      imagem: "assets/Cidades/mesa.jpg",
+      imagem: "assets/Cidades/Mesa.jpg",
     },
     {
       titulo: "Versmut",
