@@ -25,7 +25,7 @@ const monstros = [
         classe: "Sub-Chefe",
         descricao: "São árvores despertas que residem em florestas ancestrais. Protegerão ferozmente seus domínios florestais contra ameaças.",
         fraqueza: "Golpes cortantes e fogo.",
-        imagem: "assets/Monstros/Ente.jpg"
+        imagem: "assets/Monstros/ente.jpg"
       },
       {
         nome: "Golem de Pedra",
@@ -39,7 +39,7 @@ const monstros = [
         classe: "Sub-Chefe",
         descricao: "Onde um dia esse corpo era cheio de vida da Rainha Naga, após morrer e se decompor, seus ossos e a magia que havia na terra, deu-se a vida a esse monstro, que fica no aguardo de uma presa.",
         fraqueza: "Ataques a distância",
-        imagem: "assets/Monstros/Naga.jpg"
+        imagem: "assets/Monstros/naga.jpg"
       },
 
   ];
